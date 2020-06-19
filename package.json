@@ -1,6 +1,6 @@
 {
-  "name": "@maoyan/cloudbase-adapter-qq_mp",
-  "version": "0.1.1",
+  "name": "@maoyan/cloudbase-adapter-tt_mp",
+  "version": "0.1.0",
   "description": "tt miniprogram adapter of cloudbase javascript SDK",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",

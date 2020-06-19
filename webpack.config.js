@@ -12,7 +12,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'tcbAdapterQQMp',
     libraryTarget: 'umd',
     umdNamedDefine: true,
     globalObject: 'typeof window !== "undefined"?window:this'
