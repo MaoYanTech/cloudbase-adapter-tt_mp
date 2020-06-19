@@ -3,7 +3,7 @@
 
 ## 安装
 ```bash
-npm i @maoyan/cloudbase-adapter-qq_mp -S
+npm i @maoyan/cloudbase-adapter-tt_mp -S
 ```
 
 ## 使用
