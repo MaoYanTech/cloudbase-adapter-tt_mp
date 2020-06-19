@@ -1,0 +1,45 @@
+{
+  "name": "@maoyan/cloudbase-adapter-qq_mp",
+  "version": "0.1.0",
+  "description": "tt miniprogram adapter of cloudbase javascript SDK",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "eslint": "eslint \"./src/*.ts\"",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "webpack && npm run build:esm",
+    "prepublish": "npm run eslint&&npm run build"
+  },
+  "author": "myfe <fe@maoyan.com>",
+  "maintainers": [
+    {
+      "name": "wangkemiao",
+      "email": "wangkemiao@maoyan.com"
+    },
+    {
+      "name": "baiweiye",
+      "email": "baiweiye@maoyan.com"
+    },
+    {
+      "name": "guotengfei02",
+      "email": "guotengfei02@maoyan.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.7.2",
+    "eslint-config-alloy": "^3.4.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@cloudbase/adapter-interface": "^0.4.0"
+  }
+}
