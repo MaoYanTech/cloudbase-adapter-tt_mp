@@ -1,5 +1,5 @@
 # cloudbase-adapter-tt_mp
-腾讯云服务（tcb-js-sdk ）字节跳动小程序适配器
+[腾讯云服务（tcb-js-sdk）](https://cloud.tencent.com/product/tcb?from=12334)字节跳动小程序适配器
 
 ## 安装
 ```bash
